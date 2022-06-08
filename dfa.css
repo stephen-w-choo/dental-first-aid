@@ -1,0 +1,30 @@
+#main-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align:center;
+}
+
+#first-article{
+    text-align:center;
+}
+
+.card {
+    text-align:center;
+    padding-bottom: 0px;
+}
+
+.card>*{
+    margin-bottom: 40px;
+}
+
+.none {
+    display:none;
+}
+
+.image {
+    height: 200px;
+}
+
