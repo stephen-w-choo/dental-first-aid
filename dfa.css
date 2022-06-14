@@ -1,3 +1,5 @@
+
+
 #main-container{
     max-width: 960px;
     margin: 0 auto;
@@ -13,7 +15,8 @@
 
 .card {
     text-align:center;
-    padding-bottom: 0px;
+    padding: 0px;
+    max-width: 400px;
 }
 
 .card>*{
@@ -25,6 +28,11 @@
 }
 
 .image {
-    height: 200px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
+ul {
+    list-style-type: circle;
+}
