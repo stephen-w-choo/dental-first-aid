@@ -1,8 +1,8 @@
 const tooth_type = [
-    {image: "resources/babytooth.jpg",
+    {image: "resources/baby-612.jpg",
     text: "I've hit a baby tooth",
     id: "baby-tooth"},
-    {image: "resources/adult_stock.jpg",
+    {image: "resources/adult-612.jpg",
     text: "I've hit an adult tooth",
     id: "adult-tooth"}
 ]
@@ -89,13 +89,18 @@ function createCard(image_url, text, id=null, classes=null){
         container.classList.add(classes)
     }
     if (image_url) {
-        image = document.createElement("img")
+        let image = document.createElement("img")
         image.classList.add("image")
         image.src = image_url
+        let header = document.createElement("header")
+        header.append(image)
+        container.append(header)
     }
-    body = document.createElement("h4")
-    body.innerText = text
-    container.append(image, body)
+    let body = document.createElement("footer")
+    let h4 = document.createElement("h4")
+    h4.innerText = text
+    body.append(h4)
+    container.append(body)
     return(container)
 }
 

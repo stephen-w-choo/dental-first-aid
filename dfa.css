@@ -1,9 +1,18 @@
-
+:root {
+    --border-radius: 20px;
+}
 
 #main-container{
-    max-width: 960px;
+    max-width: 800px;
     margin: 0 auto;
 }
+
+#splash {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
 
 #header {
     text-align:center;
@@ -14,23 +23,25 @@
 }
 
 .card {
+    margin: auto;
+    border-radius: 20px;
     text-align:center;
     padding: 0px;
     max-width: 400px;
 }
 
+.image {
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+}
+
 .card>*{
-    margin-bottom: 40px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .none {
     display:none;
-}
-
-.image {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
 }
 
 ul {
