@@ -1,0 +1,71 @@
+:root {
+    --border-radius: 20px;
+
+}
+
+nav {
+    background-color: #046791;
+    color: #F7F7F7;
+    margin-bottom: 20px;
+}
+
+nav>*>*>*{
+    color: #F7F7F7;
+}
+
+article{ 
+    cursor: pointer; 
+}
+
+#main-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+#splash {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#icon {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+
+#header {
+    text-align:center;
+}
+
+#first-article{
+    text-align:center;
+}
+
+.card {
+    margin: auto;
+    border-radius: 20px;
+    text-align:center;
+    padding: 0px;
+    max-width: 400px;
+}
+
+.image {
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.card>*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.none {
+    display:none;
+}
+
+ul {
+    list-style-type: circle;
+}
