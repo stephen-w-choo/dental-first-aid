@@ -2,6 +2,23 @@
     --border-radius: 20px;
 
 }
+#background-image {
+    background-image: url("resources/dental-background.jpg");
+    position: absolute;
+    top: 0px;
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    opacity: 30%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    z-index: -3;
+}
 
 nav {
     background-color: #046791;
@@ -30,9 +47,7 @@ article{
 }
 
 #icon {
-    border-radius: 50%;
     height: 60px;
-    width: 60px;
 }
 
 
