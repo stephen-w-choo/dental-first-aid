@@ -1,17 +1,83 @@
 :root {
     --border-radius: 20px;
+
+}
+
+body {
+    min-height: 100vh;
+}
+#background-image {
+    background-image: url("../resources/dental-background.jpg");
+    position: fixed;
+    filter: blur(3px);
+    opacity: 30%;
+    top: 0;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    z-index: -3;
+}
+
+nav {
+    background-color: #046791;
+    color: #F7F7F7;
+    margin-bottom: 20px;
+}
+
+nav>* {
+    display: flex;
+    justify-content: space-between;
+    width: min(800px, 100%);
+    margin: 0 auto;
+}
+
+nav>*>*>*>*{
+    color: #F7F7F7;
+}
+
+#state-container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+#current-state>*{
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
 }
 
 #main-container{
-    max-width: 800px;
+    max-width: min(800px, 90%);
     margin: 0 auto;
+}
+
+article>header {
+    background-color: #046791;
+}
+
+article.hover:hover{ 
+    cursor: pointer; 
+    transition: 0.2s;
+    background-color: #e3e3e3;
 }
 
 #splash {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
 }
+
+#icon {
+    height: 60px;
+}
+
 
 
 #header {
@@ -46,4 +112,13 @@
 
 ul {
     list-style-type: circle;
+}
+
+.back {
+    font-size: 2.5rem;
+    max-width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
 }
