@@ -5,30 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
 </head>
 <body>
     <nav class="container-fluid">
-        <ul>
-          <li><strong>Dental First Aid</strong></li>
-        </ul>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Clinical guidelines</a></li>
-        </ul>
+        <div class="nav-container">
+            <ul>
+                <a href="dfa.html"><img src="../resources/title.png" id="icon"></a>
+            </ul>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="https://www.iadt-dentaltrauma.org/1-9%20%20iadt%20guidelines%20combined%20-%20lr%20-%2011-5-2013.pdf">Clinical guidelines</a></li>
+            </ul>
+        </div>
       </nav>
-      <h2 id="header" class ="none"></h2>
-    <div id = "main-container">
+    
+    <h2 id="header" class ="none"></h2>
+    
+    <div id = "background-image">
         
-        <article id = "first-article" class="flex">
+    </div>
+    <div id = "main-container">
+        <article id = "first-article" class="hover">
+            <header>
+            <img src="../resources/title.png" width="300">
             <img src="../resources/splash-image.png" id="splash">
-            <h4> Help, I've hit my front tooth!</h4>
+            
+            </header>
+            <h4> A step-by-step guide to manage dental trauma</h4>
             <h3> Click to continue </h3>
         </article>
-        <article id = "second-article" class="none">
+        <article id = "second-article" class="hover none">
             <h4> A note before continuing</h4>
             <p>
-                This guide is specifically to recommend actions after damage to teeth caused by
+                This is a guide for managing teeth that have been damaged due to
                 <strong>physical injury</strong>, such as a fall or other accident.
             </p>
             <p>
@@ -37,7 +46,7 @@
             </p>
             <p>
                 <strong>These actions are not a substitute for seeing a dentist, and with the exception of extremely minor
-                injuries, you MUST see a dentist for definitive, long-term treatment of the tooth.</strong>
+                injuries, you MUST see a dentist for definitive treatment of the tooth.</strong>
             </p>
             <h3> Click to continue </h3>
         </article>
