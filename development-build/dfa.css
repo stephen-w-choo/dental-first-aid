@@ -4,17 +4,32 @@
 }
 
 nav {
-    background-color: #046791;
+    background-image: linear-gradient(-90deg, #25215d, #005ca9);
     color: #F7F7F7;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
-nav>*>*>*{
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    max-width: 800px;
+
+}
+
+nav>*>*>*>*{
     color: #F7F7F7;
 }
 
 article{ 
     cursor: pointer; 
+}
+
+#chatbox {
+    height: 250px;
+    width: 450px;
 }
 
 #main-container{
@@ -31,8 +46,8 @@ article{
 
 #icon {
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
 }
 
 
