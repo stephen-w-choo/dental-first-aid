@@ -1,4 +1,6 @@
+import "./css/pico.min.css"
 import "./dfa.css"
+
 
 const tooth_type = [
     {image: "../resources/baby-612.jpg",
