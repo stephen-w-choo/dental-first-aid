@@ -3,10 +3,10 @@ import "./dfa.css"
 
 
 const tooth_type = [
-    {image: "../resources/baby-612.jpg",
+    {image: "./resources/baby-612.jpg",
     text: "I've hit a baby tooth",
     id: "baby-tooth"},
-    {image: "../resources/adult-612.jpg",
+    {image: "./resources/adult-612.jpg",
     text: "I've hit an adult tooth",
     id: "adult-tooth"}
 ]
@@ -99,6 +99,8 @@ function createCard(image_url, text, id=null, classes=null){
         let image = document.createElement("img")
         image.classList.add("image")
         image.src = image_url
+        image.style.width = '400px';
+        image.style.height = '235px';
         let header = document.createElement("header")
         header.append(image)
         container.append(header)
