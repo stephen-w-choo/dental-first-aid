@@ -79,8 +79,8 @@ const adult_treatment = [
     {injury: "broken", steps: [
         "Try and find the piece that's broken off - and make sure there aren't any sharp pieces in the gums or cheeks!",
         "Try and keep the piece, especially if it's a clean fracture. Your dentist may be able to bond the fragment back on.",
-        "Keep the fragment in either milk or water to keep it moist",
-        "Smaller fractures are not usually urgent, though we would still booking to see a dentist sooner rather than later",
+        "Keep the fragment in either milk or water to keep it moist.",
+        "Smaller fractures are not usually urgent, though we would still booking to see a dentist sooner rather than later.",
         "Larger fractures should be booked in with a dentist as soon as possible to avoid potential dental infections."
     ]},
 ]
@@ -213,7 +213,7 @@ function decidi_injury_view(n) {
     status_broken.innerHTML = 
     `You've told us that: 
     <br>
-    &emsp; ...it's a baby tooth👼 
+    &emsp; ...it's a baby👶 tooth 
     <br>
     &emsp; ...which has been ${decidi_treatment[n].injury} 
     <br>
