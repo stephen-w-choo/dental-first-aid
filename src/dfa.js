@@ -100,7 +100,7 @@ function createCard(image_url, text, id=null, classes=null){
         image.classList.add("image")
         image.src = image_url
         image.style.width = '400px';
-        image.style.height = '235px';
+        image.style.height = 'auto';
         let header = document.createElement("header")
         header.append(image)
         container.append(header)
